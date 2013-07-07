@@ -2,6 +2,71 @@
 IvyWire CSS 
 */
 
+@font-face {
+	font-family: 'RobotoFont';
+	src: url('../fonts/Roboto-Light-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/Roboto-Light-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/Roboto-Light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Roboto-Light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoFont2';
+	src: url('../fonts/Roboto-Thin-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/Roboto-Thin-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/Roboto-Thin-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Roboto-Thin-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CartoonistHand';
+	src: url('../fonts/SF_Cartoonist_Hand_Bold-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/SF_Cartoonist_Hand_Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/SF_Cartoonist_Hand_Bold-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/SF_Cartoonist_Hand_Bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/SF_Cartoonist_Hand_Bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EdoFont';
+	src: url('../fonts/edo-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/edo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/edo-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/edo-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/edo-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+	
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'RobotoFont';
+		src: url('../fonts/Roboto-Light-webfont.svg') format('svg');
+	}
+	
+	@font-face {
+		font-family: 'RobotoFont2';
+		src: url('../fonts/Roboto-Light-webfont.svg') format('svg');
+	}
+	
+	@font-face {
+		font-family: 'EdoFont';
+		src: url('../fonts/Roboto-Light-webfont.svg') format('svg');
+	}
+	
+	@font-face {
+		font-family: 'CartoonistHand';
+		src: url('../fonts/Roboto-Light-webfont.svg') format('svg');
+	}
+}
 .upper{
 	background: url('../img/wall1.png') repeat scroll center bottom #0489B1;
 	clear: both;
@@ -22,9 +87,10 @@ IvyWire CSS
 	display: block;
 	float: left;
 	letter-spacing:1px;
+	font-family: 'EdoFont'
 }
 .nav{
-	border-bottom: 5px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
     clear: both;
     display: block;
     float: left;
@@ -73,20 +139,51 @@ IvyWire CSS
 .lefterDesc{
 	float: left;
     margin: 0 3% 0 0;
-    width: 67%;
+    width: 60%;
 }
 
 .lefterDesc h1{
 	font-size: 50px;
-	font-weight: 700;
+	padding-top:50px;
 	line-height: 150%;
 	margin: 0;
+	font-weight:700;
 }
 
 .lefterDesc p{
 	font-size:30px;
+	margin-top:50px;
 	font-weight:300;
 	line-height:40px;
+	font-family: 'RobotoFont';
+}
+
+.contactButton{
+	margin: 0;
+    padding: 0;
+	vertical-align: baseline;
+}
+
+.contactButton a{
+	background-color: #0174DF;
+	font-size:20px;
+	background-image: -moz-linear-gradient(center top , #0174DF, #045FB4);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 5px #2E2E2E;
+	clear: both;
+	padding:18px 35px 18px 35px;
+	float: left;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration:none;
+	margin-top:30px;
+	margin-left:5%;
+}
+
+.contactButton a:hover,
+.contactButton a:focus,
+.contactButton a:active{
+	background-image: -moz-linear-gradient(center top , #045FB, #0174DF);
 }
 .righterDesc{
 
