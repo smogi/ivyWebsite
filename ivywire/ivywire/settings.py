@@ -1,4 +1,13 @@
 # Django settings for ivywire project.
+import os 
+import django
+# calculated paths for django and the site
+# used as starting points for various other paths
+# DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
+# SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
+# PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
+# PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+SETTINGS_PATH = os.path.dirname(os.path.realpath(__file__))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -50,7 +59,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = ( os.path.join(SETTINGS_PATH, 'media'),)
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -72,6 +81,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+	os.path.join(SETTINGS_PATH, 'assets'),
 )
 
 # List of finder classes that know how to find static files in
@@ -89,7 +99,7 @@ SECRET_KEY = 'm(p^y%8z0f!rnt!b8l*4$^gchzmlq7onf%)au6v=+ys6+@vusd'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
+    'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -111,6 +121,9 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+	# PROJECT_PATH + '/templates/',
+	# 'C:\Users\KaranDesktop\Documents\GitHub\ivyWebsite\ivywire',
+	os.path.join(SETTINGS_PATH, 'templates'),
 )
 
 INSTALLED_APPS = (
