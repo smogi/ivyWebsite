@@ -1,0 +1,102 @@
+/*
+IvyWire CSS 
+*/
+
+.upper{
+	background: url('../img/wall1.png') repeat scroll center bottom #0489B1;
+	clear: both;
+	float:left;
+	width:100%;
+}
+
+.upper a, p{
+	color:#FFFFFF;
+}
+.inner{
+	padding: 0 20px;
+	margin: 0 auto;
+    max-width: 1020px;
+}
+
+.nav h1 a{
+	display: block;
+	float: left;
+	letter-spacing:1px;
+}
+.nav{
+	border-bottom: 5px solid #FFFFFF;
+    clear: both;
+    display: block;
+    float: left;
+    margin: 20px auto;
+    padding: 10px 0 10px;
+    width: 100%;
+}
+
+.nav ul{
+	display: inline;
+    float: right;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 12px 0;
+    padding: 0;
+}
+
+.nav ul li{
+	display: inline-block;
+    float: left;
+    margin: 0 0 0 15px;
+	font-size: 13px;
+	list-style-type: none;
+}
+
+
+.nav ul li a {
+	color: #FFFFFF;
+    font-weight: 700;
+	font-size: 13px;
+    padding: 5px;
+	font-weight: 900;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+
+.upperDesc{
+    color: #FFFFFF;
+    float: left;
+    line-height: 160%;
+    margin: 40px 0 80px;
+	clear: both;
+    width: 100%;
+}
+
+.lefterDesc{
+	float: left;
+    margin: 0 3% 0 0;
+    width: 67%;
+}
+
+.lefterDesc h1{
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 150%;
+	margin: 0;
+}
+
+.lefterDesc p{
+	font-size:30px;
+	font-weight:300;
+	line-height:40px;
+}
+.righterDesc{
+
+}
+
+.lefterImg{
+
+}
+
+.righterImg{
+
+
+}
