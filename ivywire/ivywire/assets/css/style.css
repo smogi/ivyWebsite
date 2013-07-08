@@ -1,7 +1,9 @@
 /*
 IvyWire CSS 
 */
-
+body{
+	background-color:#D8D8D8;
+}
 @font-face {
 	font-family: 'RobotoFont';
 	src: url('../fonts/Roboto-Light-webfont.eot'); /* IE9 Compat Modes */
@@ -72,6 +74,9 @@ IvyWire CSS
 	clear: both;
 	float:left;
 	width:100%;
+	-webkit-box-shadow: 0px -1px 24px rgba(50, 50, 50, 1);
+	-moz-box-shadow: 0px -1px 24px rgba(50, 50, 50, 1);
+	box-shadow:	0px -1px 24px rgba(50, 50, 50, 1);
 }
 
 .upper a, p{
@@ -131,7 +136,7 @@ IvyWire CSS
     color: #FFFFFF;
     float: left;
     line-height: 160%;
-    margin: 40px 0 80px;
+    margin: 0px 0px 80px;
 	clear: both;
     width: 100%;
 }
@@ -169,7 +174,7 @@ IvyWire CSS
 	font-size:20px;
 	background-image: -moz-linear-gradient(center top , #0174DF, #045FB4);
 	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 5px #2E2E2E;
+	box-shadow: 0 0 5	px #2E2E2E;
 	clear: both;
 	padding:18px 35px 18px 35px;
 	float: left;
@@ -177,7 +182,7 @@ IvyWire CSS
 	font-weight: 700;
 	text-decoration:none;
 	margin-top:30px;
-	margin-left:5%;
+	margin-left:2%;
 }
 
 .contactButton a:hover,
@@ -196,4 +201,66 @@ IvyWire CSS
 .righterImg{
 
 
+}
+
+.middler{
+	clear: both;
+    float: left;
+    margin: 100px 0 80px;
+    width: 100%;
+}
+
+.leftbox{
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	-webkit-box-shadow: 2px 2px 9px rgba(170, 170, 170, 0.75);
+	-moz-box-shadow:    2px 2px 9px rgba(170, 170, 170, 0.75);
+	box-shadow:         2px 2px 9px rgba(170, 170, 170, 0.75);
+	  border-radius: 3px 3px 3px 3px;
+	background: #FAFAFA;
+	min-height: 400px;
+    padding: 20px 25px 30px;
+    width: 47%;
+	float:left;
+	vertical-align: baseline;
+}
+
+.leftbox h1{
+	color:#000000;
+	font-size:30px;
+	font-family: 'RobotoFont';
+}
+
+.leftbox p{
+	color:#000000;
+	font-family: 'RobotoFont';
+	line-height:1.5em;
+	font-size:15px;
+}
+.rightbox h1{
+	color:#000000;
+	font-size:30px;
+	font-family: 'RobotoFont';
+}
+
+.rightbox p{
+	color:#000000;
+	font-family: 'RobotoFont';
+	line-height:1.5em;
+	font-size:15px;
+}
+
+.rightbox{
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	-webkit-box-shadow: 2px 2px 9px rgba(170, 170, 170, 0.75);
+	-moz-box-shadow:    2px 2px 9px rgba(170, 170, 170, 0.75);
+	box-shadow:         2px 2px 9px rgba(170, 170, 170, 0.75);
+	  border-radius: 3px 3px 3px 3px;
+	background: #FAFAFA;
+	min-height: 400px;
+    padding: 20px 25px 30px;
+    width: 47%;
+	float:right;
+	vertical-align: baseline;
 }
