@@ -237,6 +237,7 @@ body{
     width: 47%;
 	float:left;
 	vertical-align: baseline;
+	margin-top:20px;
 }
 
 .leftbox h1{
@@ -286,8 +287,18 @@ body{
     width: 47%;
 	float:right;
 	vertical-align: baseline;
+	margin-top:20px;
+}
+.package p{
+
 }
 
+.cost p{
+	color:#000000;
+	font-family: 'RobotoFont';
+	line-height:1.5em;
+	font-size:18px;
+}
 .footer{
 	background: none repeat scroll 0 0 #242424;
     clear: both;

@@ -1,35 +1,96 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}" type="text/css"/>
+<link rel="stylesheet" href="{% static "css/style.css" %}" type="text/css"/>
+</head>
 <body>
 
-<div class="upperDesc">
-  <div class="lefterDesc">
-  <h1>Mobile App Development</h1>
-  <p>The Revolution Begins Here<br>
-      Mobility is the future.</p>
-  </div>
+<div class="upper">
+	<div class="container">
+		<div class="nav">
+			<h1>
+				<a title="Home Page" href="/">IvyWire</a>
+			</h1>
+			<ul class="menu">
+				<li><a title="Home Page" href="/">Home</a></li>
+				<li><a title="Web Development" href="/web">Websites</a></li>
+				<li><a title="Mobile App Development" href="/apps">Mobile Apps</a></li>
+			</ul>
+		</div>
+		<div class="upperDesc">
+			<div class="lefterDesc">
+				<h1>Mobile Apps.</h1>
+				<p style="font-size:24px;">
+				The mobile app movement has gradually gained momentum over the years.Nowadays, just 
+				about anybody can be seen with a smartphone.This means that the market for 
+				mobile-platform-based applications like Android or iOS apps have an enormous amount of 
+				untapped potential. 
+				<p style="font-size:24px;">
+				
+				</p>
+			</div>
+			<span class="contactButton">
+				<a href="/contact"> GET A QUOTE</a>
+			</span>
+		</div>
+	</div>
 </div>
-<p>The mobile app movement has gradually gained momentum over the years.<br>Nowadays, just about anybody can be seen with a smartphone.<br>This means that the market for mobile-platform-based applications like Android<br>or iOS apps have an enormous amount of untapped potential. The IvyWire team will be dedicated<br>to ensuring that you are able to take full advantage of this. We provide you with a personalized development experience<br>to ensure that your app will be:
-<ul>
-<li>Polished</li>
-<li>Competitive</li>
-<li>Easy to use</li>
-<li>Exceeds your expectations</li>
-</ul>
-</p>
-
-<h4>Basic Information App Package</h4>
-<p>
-This package will include text and pictures for you app. This package is recommended for clients who wants an app that solely provides information to the users through a simple interface. For instance, the first aid app will contain sections about emergency medical information. It will have little interaction with the users. This package will cost $300-$400. 
-</p>
-
-<h5>Database App Package</h5>
-<p>These apps require the creation of a database for information storage. They are usually a lot more user-interactive than the basic package. Examples of database apps include task tracker apps, note-taking apps or any apps that require storing user-input information. This package will cost $500-800, depending on the complexity of the app requested. Apps that require internet access will be more expensive than the apps which do require it. </p>
-
-<h6>Game Package</h6>
-<p>Games are the most complex apps to make. They require frequent updates due to the fact that it needs to process a large volume of user-input information. However, games are easier to go viral than other apps, thus it has great potential benefits. The game package will cost $1000-$2000 depending on the complexity.</p>
-
-
+<div class="middler">
+	<div class="container">
+		<div class="leftbox">
+			<h1>Basic Information App Package</h1>
+			<p class="package">
+			This package will include text and pictures for you app. 
+			This package is recommended for clients who wants an app that 
+			solely provides information to the users through a simple interface. 
+			For instance, the first aid app will contain sections about emergency 
+			medical information. It will have little interaction with the users.
+			</p>
+			<p class="cost">
+				Cost: $300-$400. 
+			<p>
+		</div>
+		
+		<div class="rightbox">
+			<h1>Database App Package</h1>
+			<p>
+			These apps require the creation of a database for information storage. 
+			They are usually a lot more user-interactive than the basic package. Examples 
+			of database apps include task tracker apps, note-taking apps or any apps that 
+			require storing user-input information. This package will cost $500-800, 
+			depending on the complexity of the app requested. Apps that require internet 
+			access will be more expensive than the apps which do require it. 
+			</p>
+		</div>
+		
+		<div class="leftbox">
+			<h1>Game Package</h1>
+			<p>
+			Games are the most complex apps to make. They require frequent updates due to 
+			the fact that it needs to process a large volume of user-input information. 
+			However, games are easier to go viral than other apps, thus it has great potential 
+			benefits. The game package will cost $1000-$2000 depending on the complexity.
+			</p>
+		</div>
+		
+		<div class="rightbox">
+			<h1>OtherPackage</h1>
+			<p>
+			Games are the most complex apps to make. They require frequent updates due to 
+			the fact that it needs to process a large volume of user-input information. 
+			However, games are easier to go viral than other apps, thus it has great potential 
+			benefits. The game package will cost $1000-$2000 depending on the complexity.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<span>© 2013 Tapped. All rights reserved.</span>
+	</div>
+</div>
 </body>
+<script src="{% static "js/bootstrap.min.js" %}"/>
 </html>
