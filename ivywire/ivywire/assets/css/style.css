@@ -169,6 +169,20 @@ body{
 	vertical-align: baseline;
 }
 
+.readButton a{
+	background-color: #0174DF;
+	background-image: -moz-linear-gradient(center top , #0174DF, #045FB4);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 5	px #2E2E2E;
+	clear: both;
+	padding:9px 18px 9px 18px;
+	color: #FFFFFF;
+	font-size:18px;
+	margin-top:10px;
+	float:left;
+	text-decoration:none;
+	
+}
 .contactButton a{
 	background-color: #0174DF;
 	font-size:20px;
@@ -237,6 +251,10 @@ body{
 	line-height:1.5em;
 	font-size:15px;
 }
+
+.leftbox img{
+	
+}
 .rightbox h1{
 	color:#000000;
 	font-size:30px;
@@ -248,6 +266,11 @@ body{
 	font-family: 'RobotoFont';
 	line-height:1.5em;
 	font-size:15px;
+}
+
+.rightbox img{
+
+
 }
 
 .rightbox{
@@ -263,4 +286,17 @@ body{
     width: 47%;
 	float:right;
 	vertical-align: baseline;
+}
+
+.footer{
+	background: none repeat scroll 0 0 #242424;
+    clear: both;
+    float: left;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.footer span{
+	color: #616161;
+    float: right;
 }
