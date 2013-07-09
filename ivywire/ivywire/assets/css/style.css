@@ -311,3 +311,33 @@ body{
 	color: #616161;
     float: right;
 }
+
+.packageIndex{
+	vertical-align: baseline;
+}
+.packageIndex table {
+	border-collapse: separate;
+    border-radius: 4px 4px 4px 4px;
+	border-spacing: 0;
+	text-align: center;
+	font-family:'RobotoFont';
+	color:#000000;
+}
+
+.packageIndex table td{
+	padding: 5px;
+	padding-right:30px;
+	padding-left:30px;
+	width:20%
+}
+.packageIndex table thead td{
+	
+}
+
+.packageIndex table thead h1{
+	font-size: 21px;
+}
+
+.packageIndex table tbody td{
+
+}
