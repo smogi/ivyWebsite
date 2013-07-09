@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}" type="text/css"/>
+<link rel="stylesheet" href="{% static "css/style.css" %}" type="text/css"/>
+<link rel="stylesheet" href="{% static "css/style2.css" %}" type="text/css"/>
+</head>
+<body>
+<div class="upper">
+	<div class="container">
+		<div class="nav">
+			<h1>
+				<a title="Home Page" href="/">IvyWire</a>
+			</h1>
+			<ul class="menu">
+				<li><a title="Home Page" href="/">Home</a></li>
+				<li><a title="Web Development" href="/web">Websites</a></li>
+				<li><a title="Mobile App Development" href="/apps">Mobile Apps</a></li>
+				<li><a title="Mobile App Development" href="/contact">Contact Us</a></li>
+			</ul>
+		</div>
+				<div class="upperDesc">
+			<div class="lefterDesc">
+				<h1>Contact Us</h1>
+				<p style="font-size:24px;">
+				If you are interested in working with us, feel free to contact us.
+			   <p style="font-size:24px;">			
+				</p>
+			</div>
+       </div>
+	</div>
+</div>
+
+<div class="middler">
+  <div class="container">
+   <div class="clientContactForm">
+   <form name="clientForm" method="POST" id="contact">
+   <label for="name"> 
+   <p>Name</p>
+   </label>
+  <input id="name" name="name" type="text"/>
+  <br/>
+  <label for="phone">
+  <p>Phone</p>
+  </label>
+  <input id="phone" name="phone" type="text"/>
+  <br/>
+  <label for="email">
+  <p>Email</p>
+  </label>
+  <input id="email" name="email" type="text"/>
+  <br/>
+  <label for="message">
+  <p>Message</p>
+  </label>
+ <TextArea id="message" name="message" cols="150" rows="400"/>
+ <input type="submit"/>
+ </form>
+</div>
+</div> 
+</div>
+
+
+
+</body>
+</html>
