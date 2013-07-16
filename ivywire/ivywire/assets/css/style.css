@@ -95,6 +95,7 @@ nav {
 
 header{
 	padding-top:30px;
+	margin-bottom:50px;
 }
 
 header img{
@@ -125,6 +126,8 @@ header nav li{
 
 .upper{
 	background:  repeat scroll #E9E5D8;
+	margin:0 auto;
+	float:none;
 }
 
 /* Slider part*/
@@ -151,7 +154,6 @@ header nav li{
 	float:right;
 }
 .upperTitle{
-	float:left;
 	margin-top:50px;
 }
 
@@ -161,20 +163,23 @@ header nav li{
 	width:55%;
 }
 .frontTitle h1{
+	float:left;
 	font-size:60px;
 	border-bottom: 7px #424242 solid;
 	padding-bottom:30px;
 	line-height:1.15em;
+	padding-top:15px;
 }
 
 .frontDescription{
 	float:left;
-	margin-top:30px;
+	margin-top:15px;
 	padding:10px;
 	width:55%;
 }
 .frontDescription p{
-	font-size:22px;
+	float:left;
+	font-size:18px;
 	line-height:1.75em;
 	padding-bottom:15px;
 }
@@ -187,11 +192,10 @@ header nav li{
 }
 
 .frontImage img{
-	width:30%;
-	margin-left:45px;
+	height:550px;
+	padding-top:15px;
+	margin-left:150px;
 }
-
-
 
 /*Lower part*/
 .lower {
