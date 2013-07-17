@@ -45,12 +45,12 @@ Fonts
 	font-style: normal;
 }
 @font-face {
-	font-family: 'LaneFont';
-	src: url('../fonts/LANENAR_-webfont.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/LANENAR_-webfont.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/LANENAR_-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/LANENAR_-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'MuseoFont';
+	src: url('../fonts/Museo_Slab_500_2-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/Museo_Slab_500_2-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/Museo_Slab_500_2-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Museo_Slab_500_2-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 	font-weight: normal;
 	font-style: normal;
 }
@@ -68,8 +68,8 @@ Fonts
 	}
 	
 	@font-face {
-		font-family: 'LaneFont';
-		src: url('../fonts/LANENAR_-webfont.svg') format('svg');
+		font-family: 'MuseoFont';
+		src: url('../fonts/Museo_Slab_500_2-webfont.svg') format('svg');
 	}
 	
 	@font-face {
@@ -97,14 +97,35 @@ header{
 	padding:10px;
 }
 
+header .icon{
+	float:left;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
 header .icon img{
 	float: left;
 	height:60px;
+}
+
+header .icon:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+header .icon p {
+	float: left;
+	margin-top:22px;
+	margin-left:5px;
+	font-size:20px;
+	font-family: 'MuseoFont';
 }
 .icon img{
 	width="100";
 }
 
+.icon p{
+	color:#1C1C1C;
+}
 header nav{
 	float:right;
 	padding-top:20px;
@@ -168,21 +189,25 @@ max-height:600px;
 
 .frontTitle{
 	float:left;
+	margin-top:200px;
+	width:68%;
 }
 .frontTitle p{
 	float:left;
-	font-size:25px;
-	border-bottom: 3px #424242 solid;
+	font-size:35px;
 	padding-bottom:5px;
 	line-height:1.15em;
 	padding-top:15px;
-	font-family: 'Georgia';
+	font-family: 'MuseoFont';
 	font-weight:700;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 1px #444444;
 }
 
 .frontDescription{
 	float:left;
 	margin-top:2px;
+	width:70%;
 }
 .frontDescription p{
 	float:left;
@@ -190,8 +215,9 @@ max-height:600px;
 	line-height:1.75em;
 	color:#000000;
 	padding-bottom:15px;
-	font-family: 'Georgia';
-	font-weight: lighter;
+	font-family: 'MuseoFont';
+	color:#FFFFFF;
+	text-shadow: 1px 1px 1px #444444;
 }
 
 .frontButtons{
