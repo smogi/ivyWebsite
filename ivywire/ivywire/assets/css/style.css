@@ -86,7 +86,7 @@ Fonts
 
 /*New HTML5 Website section*/
 body{
-	
+	background: url('../img/wall1.png') repeat scroll #0489B1;
 }
 
 /* Top part */
@@ -145,12 +145,15 @@ header nav li{
 }
 
 .upper{
-	background: url('../img/wall1.png') repeat scroll #0489B1;
+	z-index:200;
 }
 
 .upperNav{
-	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.48);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.48);
 	background: repeat #FFFFFF;
+	z-index:900;
+	width:100%;
+	position:fixed;
 }
 /* Slider part*/
 .banner { 
@@ -190,7 +193,7 @@ max-height:600px;
 .frontTitle{
 	float:left;
 	margin-top:200px;
-	width:68%;
+	width:65%;
 }
 .frontTitle p{
 	float:left;
@@ -207,7 +210,7 @@ max-height:600px;
 .frontDescription{
 	float:left;
 	margin-top:2px;
-	width:70%;
+	width:65%;
 }
 .frontDescription p{
 	float:left;
