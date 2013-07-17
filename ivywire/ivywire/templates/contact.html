@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="utf-8" />
+<title>IvyWire Development</title>
+
 {% load staticfiles %}
 <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}" type="text/css"/>
 <link rel="stylesheet" href="{% static "css/style.css" %}" type="text/css"/>
@@ -8,21 +11,28 @@
 </head>
 
 <body>
-<div class="banner1">
+<div class="upperNav">
     <header>
 	   <div class="container">
+		<div class="icon">
+	       <a href="/"><img src="{% static "img/logo.png"%}"/>
+		    <p>IvyWire Development</p>
+		   </a>
+		</div>
 	       <div class="navSection">
-                <nav class="topNavBar1" class="white">
+                <nav class="topNavBar1">
 				     <ul>
-					    <li><a href="/index">ABOUT</a></li>
+					    <li><a href="/">ABOUT</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/contact">Contact Us</a></li>
 				     </ul>
 			    </nav>
 		   </div>
 	   </div>
 	</header>
+</div>
     
-	<div class="banner">
+	<div class="upper1">
 	   <div class="container">
 	       <div class="contactustitle">
 		      <h1 class="white">Contact Us</h1>
@@ -66,8 +76,8 @@
  <TextArea id="message" name="message" cols="100" rows="4">
  </TextArea>
  
-  <input type="submit"/>
-  </form>
+ <input type="submit"/>
+ </form>
  
 </div>
 </div> 

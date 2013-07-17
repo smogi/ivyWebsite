@@ -25,15 +25,41 @@ margin-top: auto;
 
 }
 
+.upper1{
+	background: url('../img/wall1.png') repeat scroll #0489B1;
+}
+
 .white {
   color: #FFFFFF;
 }
 
+.black {
+  color: #000000;
+}
 .topNavBar1 ul li a{
 	text-decoration:none;
-	font-family: 'RobotoFont4';
-	color:#FFFFFF;
+	font-family: Verdana, Geneva, sans-serif;
+	color:#848484;
 	padding-bottom:5px;
+	
+}
+
+.frontDescription{
+	float:left;
+	margin-top:2px;
+}
+.frontDescription p{
+	float:left;
+	font-size:20px;
+	line-height:1.75em;
+	color:#FFFFFF;
+	padding-bottom:15px;
+	font-family: 'Georgia';
+	font-weight: lighter;
+}
+
+.navSection{
+	float:right;
 }
 
 .middler{
@@ -41,4 +67,9 @@ margin-top: auto;
     float: left;
     margin: 100px 0 80px;
     width: 100%;
+}
+
+.upperNav1 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.48);
+	background: repeat #FFFFFF;
 }
