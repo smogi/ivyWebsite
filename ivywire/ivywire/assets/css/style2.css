@@ -5,3 +5,40 @@ margin-right: 400px;
 margin-bottom: auto;
 margin-top: auto;  
 }
+
+.contactustitle
+{
+    float:left;
+	margin-top:30px;
+	width:55%;
+}
+
+.banner1 {
+
+    background: url('../img/wall1.png') repeat scroll center bottom #0489B1;
+	clear: both;
+	float:left;
+	width:100%;
+	-webkit-box-shadow: 0px -1px 24px rgba(50, 50, 50, 1);
+	-moz-box-shadow: 0px -1px 24px rgba(50, 50, 50, 1);
+    box-shadow:	0px -1px 24px rgba(50, 50, 50, 1);
+
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.topNavBar1 ul li a{
+	text-decoration:none;
+	font-family: 'RobotoFont4';
+	color:#FFFFFF;
+	padding-bottom:5px;
+}
+
+.middler{
+	clear: both;
+    float: left;
+    margin: 100px 0 80px;
+    width: 100%;
+}

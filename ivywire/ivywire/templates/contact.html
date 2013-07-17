@@ -8,11 +8,11 @@
 </head>
 
 <body>
-<div class="upper">
+<div class="banner1">
     <header>
 	   <div class="container">
 	       <div class="navSection">
-                <nav class="topNavBar">
+                <nav class="topNavBar1" class="white">
 				     <ul>
 					    <li><a href="/index">ABOUT</a></li>
 						<li><a href="/contact">Contact Us</a></li>
@@ -21,13 +21,14 @@
 		   </div>
 	   </div>
 	</header>
-    <div class="banner">
+    
+	<div class="banner">
 	   <div class="container">
-	       <div class="frontTitle">
-		      <h1>Contact Us</h1>
+	       <div class="contactustitle">
+		      <h1 class="white">Contact Us</h1>
 		   </div>
 	  <div class="frontDescription">
-	     <p>
+	     <p class="white">
 		 If you are interested in hiring our services, please contact us. Thank you for your consideration.
 		 </p>
 	  </div>
@@ -40,26 +41,34 @@
    <div class="clientContactForm">
    <form name="clientForm" method="POST" id="contact">
    <label for="name"> 
+   
    <p>Name</p>
    </label>
   <input id="name" name="name" type="text"/>
   <br/>
   <label for="phone">
+  
   <p>Phone</p>
   </label>
   <input id="phone" name="phone" type="text"/>
   <br/>
   <label for="email">
+  
   <p>Email</p>
   </label>
   <input id="email" name="email" type="text"/>
   <br/>
+  
   <label for="message">
   <p>Message</p>
   </label>
- <TextArea id="message" name="message" cols="150" rows="400"/>
- <input type="submit"/>
- </form>
+  
+ <TextArea id="message" name="message" cols="100" rows="4">
+ </TextArea>
+ 
+  <input type="submit"/>
+  </form>
+ 
 </div>
 </div> 
 </div>
