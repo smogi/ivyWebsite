@@ -86,7 +86,7 @@ Fonts
 
 /*New HTML5 Website section*/
 body{
-	color:#424242;
+	
 }
 
 /* Top part */
@@ -94,14 +94,13 @@ nav {
 }
 
 header{
-	padding-top:30px;
-	margin-bottom:50px;
+	padding:10px;
 }
 
-header img{
+header .icon img{
 	float: left;
+	height:60px;
 }
-
 .icon img{
 	width="100";
 }
@@ -113,25 +112,35 @@ header nav{
 
 header nav li{
 	display:inline;
-	font-size:18px;
+	font-size:14px;
 	padding-left: 20px;
 }
 
 .topNavBar ul li a{
 	text-decoration:none;
-	font-family: 'RobotoFont4';
-	color:#000000;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#848484;
 	padding-bottom:5px;
 }
 
 .upper{
-	background:  repeat scroll #E9E5D8;
-	margin:0 auto;
-	float:none;
+	background: url('../img/wall1.png') repeat scroll #0489B1;
 }
 
+.upperNav{
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.48);
+	background: repeat #FFFFFF;
+}
 /* Slider part*/
-.banner { position: relative; overflow: auto;}
+.banner { 
+position: relative; overflow: auto; 
+margin-top:20px; margin-bottom:20px; 
+background-color:#E9E5D8;
+margin-left:100px;
+margin-right:100px;
+border: 3px #FFFFFF solid;
+max-height:600px;
+}
 .banner li { list-style: none; }
 .banner ul li { float: left; }
 
@@ -159,29 +168,30 @@ header nav li{
 
 .frontTitle{
 	float:left;
-	margin-top:30px;
-	width:55%;
 }
-.frontTitle h1{
+.frontTitle p{
 	float:left;
-	font-size:60px;
-	border-bottom: 7px #424242 solid;
-	padding-bottom:30px;
+	font-size:25px;
+	border-bottom: 3px #424242 solid;
+	padding-bottom:5px;
 	line-height:1.15em;
 	padding-top:15px;
+	font-family: 'Georgia';
+	font-weight:700;
 }
 
 .frontDescription{
 	float:left;
-	margin-top:15px;
-	padding:10px;
-	width:55%;
+	margin-top:2px;
 }
 .frontDescription p{
 	float:left;
-	font-size:18px;
+	font-size:20px;
 	line-height:1.75em;
+	color:#000000;
 	padding-bottom:15px;
+	font-family: 'Georgia';
+	font-weight: lighter;
 }
 
 .frontButtons{
