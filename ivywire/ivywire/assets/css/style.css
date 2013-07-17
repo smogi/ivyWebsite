@@ -86,7 +86,7 @@ Fonts
 
 /*New HTML5 Website section*/
 body{
-	background: url('../img/wall1.png') repeat scroll #0489B1;
+	text-rendering: optimizelegibility;
 }
 
 /* Top part */
@@ -146,15 +146,28 @@ header nav li{
 
 .upper{
 	z-index:200;
+	background: url("../img/wall3.png") repeat scroll 0 0 transparent;
 }
 
 .upperNav{
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.48);
+	/*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.48);*/
 	background: repeat #FFFFFF;
 	z-index:900;
 	width:100%;
 	position:fixed;
 }
+
+.button{
+	margin-right:25px;
+}
+
+.buttonRow{
+	width:20%;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+
+
 /* Slider part*/
 .banner { 
 position: relative; overflow: auto; 
@@ -191,36 +204,37 @@ max-height:600px;
 }
 
 .frontTitle{
-	float:left;
-	margin-top:200px;
-	width:65%;
+	width:100%;
+	margin:0 auto;
+	margin-top:150px;
 }
 .frontTitle p{
-	float:left;
-	font-size:35px;
+	text-align:center;
+	font-size:70px;
 	padding-bottom:5px;
 	line-height:1.15em;
 	padding-top:15px;
-	font-family: 'MuseoFont';
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight:700;
 	color:#FFFFFF;
-	text-shadow: 1px 1px 1px #444444;
+	/*text-shadow: 1px 1px 1px #444444;*/
 }
 
 .frontDescription{
 	float:left;
-	margin-top:2px;
-	width:65%;
+	margin:0 auto;
+	margin-top:50px;
+	width:100%;
 }
 .frontDescription p{
-	float:left;
+	text-align:center;
 	font-size:20px;
 	line-height:1.75em;
 	color:#000000;
 	padding-bottom:15px;
 	font-family: 'MuseoFont';
 	color:#FFFFFF;
-	text-shadow: 1px 1px 1px #444444;
+	/*text-shadow: 1px 1px 1px #444444;*/
 }
 
 .frontButtons{
@@ -239,7 +253,65 @@ max-height:600px;
 /*Lower part*/
 .lower {
 	width:100%;
-	background:  repeat scroll #FFFFFF;
+	background: url("../img/wall2.png") repeat scroll 0 0 transparent;
+	/*box-shadow: -2px -2px 8px 0 rgba(0, 0, 0, 0.48);*/
+}
+
+p.heading{
+	color: #333333;
+	font-size: 35px;
+	padding-top:100px;
+	margin-bottom:50px;
+	font-family:'RobotoFont';
+	text-align:center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.lowerMarketing{
+	margin-top:50px;
+}
+
+.lowerCaption{
+	
+}
+
+.lowerCaption h1{
+	text-align:center;
+	font-family: 'RobotoFont';
+	font-size:25px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.lowerCaption p{
+	
+}
+.lowerList{
+	margin:0 auto;
+	display:block;
+	width:400px;
+}
+
+.lowerList ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+.lowerList ul li{
+	list-style-image: url("../img/check.png");
+	padding-left: 14px; 
+	font-family:'MuseoFont';
+	font-size: 30px;
 }
 /* Old Website Section
 .upper{
