@@ -131,6 +131,7 @@ header .icon p {
 .icon p{
 	color:#1C1C1C;
 }
+
 header nav{
 	float:right;
 	padding-top:20px;
@@ -159,16 +160,18 @@ header nav li{
 	background: repeat #FFFFFF;
 	z-index:900;
 	width:100%;
-	position:fixed;
 }
 
 .button1{
+	display:inline-block;
+	margin-bottom:40px;
 	margin-right:45px;
-	margin-left:10px;
+	margin-left:33%;
 	text-align: center;
 	padding:10px;
 	background-color: #A9E2F3;
 	color: #ECF0F1;
+	border-radius: 4px 4px 4px 4px;
 	box-shadow: 0 0.1em 0 rgba(255, 255, 255, 0.1) inset, 
 		0 -0.15em 0 rgba(0, 0, 0, 0.2) inset, 0 0.15em 0 rgba(0, 0, 0, 0.075);
 		
@@ -186,7 +189,9 @@ header nav li{
 
 
 .button2{
+	display:inline-block;
 	background-color: #F78181;
+	margin-bottom:40px;
 	margin-right:45px;
 	margin-left:10px;
 	text-align: center;
@@ -218,8 +223,8 @@ header nav li{
 .buttonRow{
 	width:350px;
 	margin:0 auto;
-	margin-bottom:45px;
 	margin-top:25px;
+	display:inline;
 }
 
 
@@ -261,7 +266,7 @@ max-height:600px;
 .frontTitle{
 	width:100%;
 	margin:0 auto;
-	margin-top:150px;
+	margin-top:70px;
 }
 .frontTitle p{
 	text-align:center;
@@ -313,11 +318,12 @@ max-height:600px;
 }
 
 p.heading{
-	color: #333333;
-	font-size: 35px;
+	color: #4B5F6D;
+	font-size: 50px;
 	padding-top:100px;
-	margin-bottom:50px;
-	font-family:'RobotoFont';
+	margin-bottom:100px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
 	text-align:center;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -337,8 +343,10 @@ p.heading{
 
 .lowerCaption h1{
 	text-align:center;
-	font-family: 'RobotoFont';
+	margin-top:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size:25px;
+	color: #4B5F6D;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -348,7 +356,20 @@ p.heading{
 }
 
 .lowerCaption p{
-	
+	color: #4B5F6D;
+	font-family: 'RobotoFont';
+	font-size:20px;
+	text-align:center;
+	padding:5px;
+	line-height:1.25em;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+.lowerCaption img{
+	width:135px;
+	display:block;
+	margin: 0 auto;
 }
 .lowerList{
 	margin:0 auto;
