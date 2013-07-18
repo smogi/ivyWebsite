@@ -87,7 +87,12 @@ Fonts
 /*New HTML5 Website section*/
 body{
 	text-rendering: optimizelegibility;
-	background-color:#01A9DB;
+}
+
+html, body {
+    position:relative;
+    overflow:hidden;
+    margin:0 auto !important;
 }
 
 /* Top part */
@@ -153,6 +158,7 @@ header nav li{
 
 .upper{
 	z-index:200;
+	width:100%;
 	background: url("../img/wall3.png") repeat scroll 0 0 transparent;
 }
 
