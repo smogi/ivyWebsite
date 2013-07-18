@@ -3,7 +3,7 @@
 margin-left: 400px; 
 margin-right: 400px; 
 margin-bottom: auto;
-margin-top: auto;  
+margin-top: 100px;  
 }
 
 .contactustitle
@@ -11,6 +11,29 @@ margin-top: auto;
     float:left;
 	margin-top:30px;
 	width:55%;
+}
+
+.buttonX {
+	margin-right:45px;
+	margin-left:10px;
+	text-align: center;
+	padding:10px;	
+	background-color: #0000FF;
+	color: #FFFFFF;
+	box-shadow: 0 0.1em 0 rgba(255, 255, 255, 0.1) inset, 
+		0 -0.15em 0 rgba(0, 0, 0, 0.2) inset, 0 0.15em 0 rgba(0, 0, 0, 0.075);
+		
+	/*Darken stuff*/
+	-webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+.buttonX input{
+   font-family: 'OSFont';
+   
 }
 
 .banner1 {
@@ -44,6 +67,23 @@ margin-top: auto;
 	
 }
 
+.footerX{
+
+   background: #000000 repeat;  
+   padding-top: 50px;
+   padding-bottom:100px;
+   padding-right:50px;
+   padding-left:50px;
+     
+}
+
+footer.text {
+   float: left;
+   text-align: left;
+
+}
+
+
 .frontDescription{
 	float:left;
 	margin-top:2px;
@@ -56,6 +96,12 @@ margin-top: auto;
 	padding-bottom:15px;
 	font-family: 'Georgia';
 	font-weight: lighter;
+}
+
+.frontTitle1{
+	width:100%;
+	margin:0 auto;
+	margin-top:180px;
 }
 
 .navSection{
