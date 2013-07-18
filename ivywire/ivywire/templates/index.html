@@ -11,8 +11,14 @@
 </head>
 
 <body>
-
-<div class="upperNav">
+<!--[if lte IE 8]>
+<div style='clear: both; height: 112px; padding:0; position: relative float:left;'>
+<a href="http://www.theie8countdown.com/ie-users-info">
+<img src="http://www.theie8countdown.com/assets/badge_iecountdown.png" border="0" height="112" width="348" alt="" />
+</a>
+</div>
+<![endif]-->
+<div class="upperNav" id="navArea">
 	<header>
 		<div class="container">
 			<div class="icon">
@@ -96,10 +102,40 @@
 	</div>
 </div>
 <div class="lowerFooter">
-	
-</div>
-<footer>
 
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="span4">
+				<div class = "leftFooter">
+					<h1>Our Team</h1>
+					<p>
+						Our team is comprised of <b>talented</b> individuals will put the utmost effort into 
+						every part of <b>your product</b>. We will gladly listen to any concerns or ideas you 
+						may have for us. <b>We are looking forward to have a prosperous business relationship
+						with each and one of you</b>.
+					</p>
+				</div>
+			</div class="span4">
+			<div class="span4">
+				<div class = "middleFooter">
+					<h1>Contact Info</h1>
+					<p> Email: <a href="mailto:ivywireline@gmail.com">ivywireline@gmail.com</a></p>
+					<p> Skype: <a href="skype:ivywire-main?userinfo">ivywire-main</a></p>
+				</div>
+			</div class="span4">
+			<div class="span4">
+				<div class = "rightFooter">
+					<h1>Navigation</h1>
+					<p><a href="/">About</a></p>
+					<p><a href="/web">Portfolio</a></p>
+					<p><a href="/contact">Contact</a></p>
+				</div>
+			</div class="span4">
+		</div>
+	</div>
 </footer>
 <!--
 <div class="navbar navbar-fixed-top">
@@ -178,7 +214,7 @@
 				<a href="/apps"> READ MORE</a>
 			</span>
 		</div>
-	</div>
+	</div> 
 </div>
 
 <div class="footer">
@@ -196,6 +232,11 @@
 <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js&quot; type="text/javascript"></script>
 <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/ie7-squish.js&quot; type="text/javascript"></script>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js&quot; type="text/javascript"></script>
+<![endif]-->
+<!--[if lte IE8]>
+<script>
+	$('#navArea').hide();
+</script>
 <![endif]-->
 <script>
 $('.banner').unslider({

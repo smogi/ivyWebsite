@@ -87,6 +87,7 @@ Fonts
 /*New HTML5 Website section*/
 body{
 	text-rendering: optimizelegibility;
+	background-color:#01A9DB;
 }
 
 /* Top part */
@@ -167,6 +168,7 @@ header nav li{
 	margin-bottom:40px;
 	margin-right:45px;
 	margin-left:33%;
+	margin-top:10px;
 	text-align: center;
 	padding:10px;
 	background-color: #A9E2F3;
@@ -194,6 +196,7 @@ header nav li{
 	margin-bottom:40px;
 	margin-right:45px;
 	margin-left:10px;
+	margin-top:10px;
 	text-align: center;
 	padding:10px;
 	color: #ECF0F1;
@@ -202,11 +205,11 @@ header nav li{
 		0 -0.15em 0 rgba(0, 0, 0, 0.2) inset, 0 0.15em 0 rgba(0, 0, 0, 0.075);
 		
 	/*Darken stuff*/
-	-webkit-transition: all 0.2s linear;
-       -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-         -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
+	-webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
 }
 
 .button2:hover{
@@ -223,7 +226,6 @@ header nav li{
 .buttonRow{
 	width:350px;
 	margin:0 auto;
-	margin-top:25px;
 	display:inline;
 }
 
@@ -266,7 +268,7 @@ max-height:600px;
 .frontTitle{
 	width:100%;
 	margin:0 auto;
-	margin-top:70px;
+	margin-top:60px;
 }
 .frontTitle p{
 	text-align:center;
@@ -315,6 +317,7 @@ max-height:600px;
 	width:100%;
 	background: url("../img/wall2.png") repeat scroll 0 0 transparent;
 	/*box-shadow: -2px -2px 8px 0 rgba(0, 0, 0, 0.48);*/
+	padding-bottom:50px;
 }
 
 p.heading{
@@ -366,7 +369,7 @@ p.heading{
 	-webkit-user-select: none;
 }
 
-.lowerCaption img{
+.lowerCaption img{ 
 	width:135px;
 	display:block;
 	margin: 0 auto;
@@ -388,6 +391,65 @@ p.heading{
 	padding-left: 14px; 
 	font-family:'MuseoFont';
 	font-size: 30px;
+}
+
+footer{
+	background-color:#2E2E2E;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.leftFooter{
+	margin-right:5px;
+}
+
+.leftFooter h1{
+	font-size:22px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#C4D2DF;
+	letter-spacing:1px;
+}
+
+.leftFooter p{
+	font-size:14px;
+	color: #C4D2DF;
+	line-height:1.5em;
+}
+
+.middleFooter{
+	margin-left:45px;
+	margin-right:5px;
+}
+
+.middleFooter h1{
+	font-size:22px;
+	color:#C4D2DF;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #C4D2DF;
+	letter-spacing:1px;
+}
+
+.middleFooter p{
+	font-size:14px;
+	color: #C4D2DF;
+	line-height:1.5em;
+}
+.rightFooter{
+	margin-left:25px;
+}
+
+.rightFooter h1{
+	font-size:22px;
+	color:#C4D2DF;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #C4D2DF;
+	letter-spacing:1px;
+}
+
+.rightFooter p{
+	font-size:14px;
+	color: #C4D2DF;
+	line-height:1.5em;
 }
 /* Old Website Section
 .upper{
