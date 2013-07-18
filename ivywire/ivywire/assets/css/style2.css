@@ -77,9 +77,20 @@ margin-top: 100px;
      
 }
 
-footer.text {
+footer.text p{
+   
    float: left;
    text-align: left;
+   font-family: 'RobotoFont2';
+   font-size: 20px;
+   
+
+}
+
+footer.text1 {
+
+   float: right;
+      
 
 }
 
@@ -101,7 +112,7 @@ footer.text {
 .frontTitle1{
 	width:100%;
 	margin:0 auto;
-	margin-top:180px;
+	margin-top:50px;
 }
 
 .navSection{
