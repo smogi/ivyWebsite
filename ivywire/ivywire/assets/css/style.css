@@ -24,17 +24,6 @@ Fonts
 }
 
 @font-face {
-	font-family: 'OSFont';
-	src: url('../fonts/Roboto-LightItalic-webfont.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/Roboto-LightItalic-webfont.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/Roboto-LightItalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/Roboto-LightItalic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'RobotoFont4';
 	src: url('../fonts/Roboto-Regular-webfont.eot'); /* IE9 Compat Modes */
 	src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -71,11 +60,6 @@ Fonts
 		font-family: 'MuseoFont';
 		src: url('../fonts/Museo_Slab_500_2-webfont.svg') format('svg');
 	}
-	
-	@font-face {
-		font-family: 'OSFont';
-		src: url('../fonts/Roboto-LightItalic-webfont.svg') format('svg');
-	}	
 	
 	@font-face {
 		font-family: 'RobotoFont4';
@@ -154,6 +138,7 @@ header nav li{
 	font-family:Verdana, Geneva, sans-serif;
 	color:#848484;
 	padding-bottom:5px;
+	font-size:15px;
 }
 
 .upper{
