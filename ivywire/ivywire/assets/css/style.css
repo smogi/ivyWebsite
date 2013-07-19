@@ -88,13 +88,13 @@ Fonts
 body{
 	text-rendering: optimizelegibility;
 }
-
+/*
 html, body {
     position:relative;
     overflow:hidden;
     margin:0 auto !important;
 }
-
+*/
 /* Top part */
 nav {
 }
@@ -159,6 +159,7 @@ header nav li{
 .upper{
 	z-index:200;
 	width:100%;
+	min-width:950px;
 	background: url("../img/wall3.png") repeat scroll 0 0 transparent;
 }
 
@@ -216,6 +217,10 @@ header nav li{
         -ms-transition: all 0.3s linear;
          -o-transition: all 0.3s linear;
             transition: all 0.3s linear;
+			
+	/*if no portfolio button */
+	width:200px;
+	margin-left:40%;
 }
 
 .button2:hover{
@@ -321,6 +326,7 @@ max-height:600px;
 /*Lower part*/
 .lower {
 	width:100%;
+	min-width:950px;
 	background: url("../img/wall2.png") repeat scroll 0 0 transparent;
 	/*box-shadow: -2px -2px 8px 0 rgba(0, 0, 0, 0.48);*/
 	padding-bottom:50px;
@@ -367,7 +373,7 @@ p.heading{
 .lowerCaption p{
 	color: #4B5F6D;
 	font-family: 'RobotoFont';
-	font-size:20px;
+	font-size:18px;
 	text-align:center;
 	padding:5px;
 	line-height:1.25em;
@@ -403,6 +409,7 @@ footer{
 	background-color:#2E2E2E;
 	padding-top:15px;
 	padding-bottom:15px;
+	min-width:950px;
 }
 
 .leftFooter{
